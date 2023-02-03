@@ -9,6 +9,10 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
+             stage('Hi') {
+            steps {
+                echo 'Hi guys how are you...!'
+            }
         }
         stage('SCM') {
             steps {
